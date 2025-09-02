@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Emagreça Rápido — Ebook Oficial</title>
+<style>
+:root{
+  --accent:#ffd34e;
+  --bg:#0b0b0c;
+  --muted:#9b9b9b;
+  --btn-hover:#ffea70;
+}
+body{
+  margin:0;
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;
+  background:var(--bg);
+  color:#fff;
+  line-height:1.5;
+}
+.container{
+  max-width:1100px;
+  margin:24px auto;
+  padding:20px;
+}
+.header{
+  display:flex;
+  gap:20px;
+  align-items:center;
+  flex-wrap:wrap;
+}
+.header img{
+  width:280px;
+  border-radius:12px;
+  box-shadow:0 6px 18px rgba(0,0,0,.6);
+}
+.h-copy h1{
+  margin:0;
+  font-size:2.2rem;
+  line-height:1.1;
+}
+.h-copy p{
+  color:var(--muted);
+  font-size:1.1rem;
+}
+.grid{
+  display:grid;
+  grid-template-columns:1fr 380px;
+  gap:20px;
+  margin-top:18px;
+}
+.card{
+  background:linear-gradient(180deg,rgba(255,255,255,.03),rgba(255,255,255,.01));
+  border:1px solid #222;
+  padding:18px;
+  border-radius:12px;
+  margin-bottom:14px;
+}
+.price{
+  font-size:2.6rem;
+  color:var(--accent);
+  font-weight:800;
+}
+.strike{
+  text-decoration:line-through;
+  color:#777;
+  margin-left:10px;
+  font-size:1rem;
+}
+.btn{
+  display:inline-block;
+  background:var(--accent);
+  color:#000;
+  padding:16px 26px;
+  border-radius:10px;
+  font-weight:800;
+  margin-top:16px;
+  text-decoration:none;
+  font-size:1.1rem;
+  transition:0.3s;
+}
+.btn:hover{
+  background:var(--btn-hover);
+}
+.small{
+  font-size:.9rem;
+  color:var(--muted);
+}
+.features{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:12px;
+  margin-top:12px;
+}
+.feature{
+  background:#0f0f10;
+  padding:12px;
+  border-radius:10px;
+  border:1px solid #222;
+}
+.testimonial{
+  background:#111;
+  padding:12px;
+  border-radius:10px;
+  margin:8px 0;
+  border:1px solid #222;
+  font-size:.95rem;
+}
+.urgency{
+  background:#1a1a1a;
+  border:1px solid #ff5757;
+  color:#ffbaba;
+  padding:12px;
+  border-radius:10px;
+  text-align:center;
+  font-weight:600;
+  margin:18px 0;
+  animation: pulse 1.5s infinite;
+}
+@keyframes pulse{
+  0%{box-shadow:0 0 5px #ff5757;}
+  50%{box-shadow:0 0 15px #ff5757;}
+  100%{box-shadow:0 0 5px #ff5757;}
+}
+.footer{
+  margin-top:30px;
+  color:var(--muted);
+  font-size:.9rem;
+  text-align:center;
+}
+@media(max-width:900px){
+  .grid{
+    grid-template-columns:1fr;
+  }
+  .header{
+    flex-direction:column;
+    align-items:flex-start;
+  }
+  .header img{
+    width:220px;
+  }
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <img src="assets/cover_main.png" alt="Capa Ebook Emagreça Rápido">
+    <div class="h-copy">
+      <h1>Emagreça Rápido em 21 Dias — Sem Dietas Malucas</h1>
+      <p>O método simples que está transformando corpos e vidas com cardápios fáceis e treinos rápidos.</p>
+      <div style="margin-top:8px">
+        <span class="price">R$ 19,99</span><span class="strike">R$ 97</span>
+      </div>
+      <a class="btn" href="https://pay.kiwify.com.br/i1IboEg" target="_blank">QUERO COMEÇAR AGORA</a>
+      <p class="small">⚡ Oferta exclusiva por tempo limitado</p>
+    </div>
+  </div>
+
+  <div class="urgency">🚨 Promoção válida apenas hoje — garanta seu acesso com desconto!</div>
+
+  <div class="grid">
+    <div>
+      <div class="card">
+        <h2>O que você vai receber</h2>
+        <div class="features">
+          <div class="feature">✅ Plano detox de 7 dias</div>
+          <div class="feature">✅ Método completo 21 dias</div>
+          <div class="feature">✅ Receitas práticas e baratas</div>
+          <div class="feature">✅ Treinos de 20 min em casa</div>
+          <div class="feature">✅ Checklist de acompanhamento</div>
+          <div class="feature">✅ Suporte motivacional</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Benefícios para você</h2>
+        <ul>
+          <li>📉 Perca peso de forma natural e saudável</li>
+          <li>💪 Tenha mais energia no dia a dia</li>
+          <li>🥗 Reeduque sua alimentação sem sofrimento</li>
+          <li>⏱️ Resultados já nas primeiras semanas</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Depoimentos de quem já testou</h2>
+        <div class="testimonial">“Perdi 5kg em 4 semanas e nunca me senti tão bem!” — <strong>Juliana M.</strong></div>
+        <div class="testimonial">“Simples de seguir, consegui encaixar na minha rotina!” — <strong>Carlos P.</strong></div>
+        <div class="testimonial">“Voltei a vestir roupas que estavam guardadas há anos.” — <strong>Ana Souza</strong></div>
+      </div>
+
+      <a class="btn" href="https://pay.kiwify.com.br/i1IboEg" target="_blank">QUERO EMAGRECER AGORA</a>
+    </div>
+
+    <div>
+      <div class="card">
+        <h3>Pagamento 100% Seguro</h3>
+        <p class="small">Após o pagamento, o acesso é enviado automaticamente por email.</p>
+        <p class="small">Pague com Pix, Boleto ou Cartão de Crédito.</p>
+        <p class="small">Garantia total de 7 dias para reembolso.</p>
+      </div>
+
+      <div class="card">
+        <h3>Perguntas Frequentes (FAQ)</h3>
+        <p class="small"><strong>Como recebo o material?</strong> Você recebe o PDF por email imediatamente após o pagamento.</p>
+        <p class="small"><strong>Preciso de academia?</strong> Não — todos os treinos são adaptados para casa.</p>
+        <p class="small"><strong>Funciona mesmo?</strong> Sim, basta seguir o plano de 21 dias e você verá resultados reais.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>© 2025 Emagreça Rápido — Todos os direitos reservados.</p>
+  </div>
+</div>
+</body>
+</html>
